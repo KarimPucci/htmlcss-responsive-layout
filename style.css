@@ -27,7 +27,7 @@ nav{
 main .box{
   background-color: rgb(106, 195, 255);
   margin: 50px 30px;
-  height: 600px;
+  height: 300px;
   border-radius: 30px;
   padding: 50px;
   /* display: flex;
@@ -38,6 +38,12 @@ main .box{
 main .box img{
   width: 80%;
   height: 50%;
+}
+
+section{
+  width: 100%;
+  height: 700px;
+  background-color: blueviolet;
 }
 
 .tit{
@@ -55,4 +61,14 @@ main .box img{
   word-spacing: 10px;
   font-size: 15px;
   color: white;
+}
+
+.menu-nascosto{
+  display: none;
+}
+
+.bt-nav{
+  padding: 7px;
+  border-radius: 30px;
+  border-style: none;
 }
